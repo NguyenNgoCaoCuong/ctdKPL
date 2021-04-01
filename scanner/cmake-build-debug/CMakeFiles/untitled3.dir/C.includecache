@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/cuong/CLionProjects/untitled3/incompleted/charcode.h
+
+C:/Users/cuong/CLionProjects/untitled3/incompleted/error.h
+
+C:/Users/cuong/CLionProjects/untitled3/incompleted/reader.h
+
+C:/Users/cuong/CLionProjects/untitled3/incompleted/scanner.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+limits.h
+-
+reader.h
+C:/Users/cuong/CLionProjects/untitled3/incompleted/reader.h
+charcode.h
+C:/Users/cuong/CLionProjects/untitled3/incompleted/charcode.h
+token.h
+C:/Users/cuong/CLionProjects/untitled3/incompleted/token.h
+error.h
+C:/Users/cuong/CLionProjects/untitled3/incompleted/error.h
+
+C:/Users/cuong/CLionProjects/untitled3/incompleted/token.h
+

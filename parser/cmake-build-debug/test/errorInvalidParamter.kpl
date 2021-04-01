@@ -1,0 +1,27 @@
+Program Example2; (* Factorial *)
+Var n : Integer;
+Function F(n : Integer): Integer;
+  Begin
+    If n = 0 Then F := 1 Else F := N * F (N - 1);
+  End;
+PROCEDURE  HANOI N:INTEGER;  S:INTEGER;  Z:INTEGER);
+    BEGIN
+      IF  N != 0  THEN
+        BEGIN
+          CALL  HANOI(N-1,S,6-S-Z);
+          I:=I+1;
+          CALL  WRITELN;
+          CALL  WRITEI(I);
+          CALL  WRITEI(N);
+          CALL  WRITEI(S);
+          CALL  WRITEI(Z);
+          CALL  HANOI(N-1,6-S-Z,Z)
+        END
+    END;  (*END OF HANOI*)
+Begin
+  For n := 1 To 7 Do
+    Begin
+      Call WriteLn;
+      Call WriteI( F(i));
+    End;
+End. (* Factorial *)
