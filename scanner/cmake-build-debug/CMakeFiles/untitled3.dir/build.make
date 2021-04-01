@@ -62,10 +62,10 @@ RM = "C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\cuong\CLionProjects\untitled3
+CMAKE_SOURCE_DIR = C:\Users\cuong\CLionProjects\scanner
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\cuong\CLionProjects\untitled3\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\cuong\CLionProjects\scanner\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/untitled3.dir/depend.make
@@ -78,68 +78,68 @@ include CMakeFiles/untitled3.dir/flags.make
 
 CMakeFiles/untitled3.dir/incompleted/scanner.c.obj: CMakeFiles/untitled3.dir/flags.make
 CMakeFiles/untitled3.dir/incompleted/scanner.c.obj: ../incompleted/scanner.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\cuong\CLionProjects\untitled3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/untitled3.dir/incompleted/scanner.c.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\untitled3.dir\incompleted\scanner.c.obj   -c C:\Users\cuong\CLionProjects\untitled3\incompleted\scanner.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\cuong\CLionProjects\scanner\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/untitled3.dir/incompleted/scanner.c.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\untitled3.dir\incompleted\scanner.c.obj   -c C:\Users\cuong\CLionProjects\scanner\incompleted\scanner.c
 
 CMakeFiles/untitled3.dir/incompleted/scanner.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/untitled3.dir/incompleted/scanner.c.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\cuong\CLionProjects\untitled3\incompleted\scanner.c > CMakeFiles\untitled3.dir\incompleted\scanner.c.i
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\cuong\CLionProjects\scanner\incompleted\scanner.c > CMakeFiles\untitled3.dir\incompleted\scanner.c.i
 
 CMakeFiles/untitled3.dir/incompleted/scanner.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/untitled3.dir/incompleted/scanner.c.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\cuong\CLionProjects\untitled3\incompleted\scanner.c -o CMakeFiles\untitled3.dir\incompleted\scanner.c.s
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\cuong\CLionProjects\scanner\incompleted\scanner.c -o CMakeFiles\untitled3.dir\incompleted\scanner.c.s
 
 CMakeFiles/untitled3.dir/incompleted/charcode.c.obj: CMakeFiles/untitled3.dir/flags.make
 CMakeFiles/untitled3.dir/incompleted/charcode.c.obj: ../incompleted/charcode.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\cuong\CLionProjects\untitled3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/untitled3.dir/incompleted/charcode.c.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\untitled3.dir\incompleted\charcode.c.obj   -c C:\Users\cuong\CLionProjects\untitled3\incompleted\charcode.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\cuong\CLionProjects\scanner\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/untitled3.dir/incompleted/charcode.c.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\untitled3.dir\incompleted\charcode.c.obj   -c C:\Users\cuong\CLionProjects\scanner\incompleted\charcode.c
 
 CMakeFiles/untitled3.dir/incompleted/charcode.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/untitled3.dir/incompleted/charcode.c.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\cuong\CLionProjects\untitled3\incompleted\charcode.c > CMakeFiles\untitled3.dir\incompleted\charcode.c.i
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\cuong\CLionProjects\scanner\incompleted\charcode.c > CMakeFiles\untitled3.dir\incompleted\charcode.c.i
 
 CMakeFiles/untitled3.dir/incompleted/charcode.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/untitled3.dir/incompleted/charcode.c.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\cuong\CLionProjects\untitled3\incompleted\charcode.c -o CMakeFiles\untitled3.dir\incompleted\charcode.c.s
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\cuong\CLionProjects\scanner\incompleted\charcode.c -o CMakeFiles\untitled3.dir\incompleted\charcode.c.s
 
 CMakeFiles/untitled3.dir/incompleted/error.c.obj: CMakeFiles/untitled3.dir/flags.make
 CMakeFiles/untitled3.dir/incompleted/error.c.obj: ../incompleted/error.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\cuong\CLionProjects\untitled3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/untitled3.dir/incompleted/error.c.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\untitled3.dir\incompleted\error.c.obj   -c C:\Users\cuong\CLionProjects\untitled3\incompleted\error.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\cuong\CLionProjects\scanner\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/untitled3.dir/incompleted/error.c.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\untitled3.dir\incompleted\error.c.obj   -c C:\Users\cuong\CLionProjects\scanner\incompleted\error.c
 
 CMakeFiles/untitled3.dir/incompleted/error.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/untitled3.dir/incompleted/error.c.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\cuong\CLionProjects\untitled3\incompleted\error.c > CMakeFiles\untitled3.dir\incompleted\error.c.i
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\cuong\CLionProjects\scanner\incompleted\error.c > CMakeFiles\untitled3.dir\incompleted\error.c.i
 
 CMakeFiles/untitled3.dir/incompleted/error.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/untitled3.dir/incompleted/error.c.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\cuong\CLionProjects\untitled3\incompleted\error.c -o CMakeFiles\untitled3.dir\incompleted\error.c.s
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\cuong\CLionProjects\scanner\incompleted\error.c -o CMakeFiles\untitled3.dir\incompleted\error.c.s
 
 CMakeFiles/untitled3.dir/incompleted/reader.c.obj: CMakeFiles/untitled3.dir/flags.make
 CMakeFiles/untitled3.dir/incompleted/reader.c.obj: ../incompleted/reader.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\cuong\CLionProjects\untitled3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/untitled3.dir/incompleted/reader.c.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\untitled3.dir\incompleted\reader.c.obj   -c C:\Users\cuong\CLionProjects\untitled3\incompleted\reader.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\cuong\CLionProjects\scanner\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/untitled3.dir/incompleted/reader.c.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\untitled3.dir\incompleted\reader.c.obj   -c C:\Users\cuong\CLionProjects\scanner\incompleted\reader.c
 
 CMakeFiles/untitled3.dir/incompleted/reader.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/untitled3.dir/incompleted/reader.c.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\cuong\CLionProjects\untitled3\incompleted\reader.c > CMakeFiles\untitled3.dir\incompleted\reader.c.i
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\cuong\CLionProjects\scanner\incompleted\reader.c > CMakeFiles\untitled3.dir\incompleted\reader.c.i
 
 CMakeFiles/untitled3.dir/incompleted/reader.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/untitled3.dir/incompleted/reader.c.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\cuong\CLionProjects\untitled3\incompleted\reader.c -o CMakeFiles\untitled3.dir\incompleted\reader.c.s
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\cuong\CLionProjects\scanner\incompleted\reader.c -o CMakeFiles\untitled3.dir\incompleted\reader.c.s
 
 CMakeFiles/untitled3.dir/incompleted/token.c.obj: CMakeFiles/untitled3.dir/flags.make
 CMakeFiles/untitled3.dir/incompleted/token.c.obj: ../incompleted/token.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\cuong\CLionProjects\untitled3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/untitled3.dir/incompleted/token.c.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\untitled3.dir\incompleted\token.c.obj   -c C:\Users\cuong\CLionProjects\untitled3\incompleted\token.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\cuong\CLionProjects\scanner\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/untitled3.dir/incompleted/token.c.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\untitled3.dir\incompleted\token.c.obj   -c C:\Users\cuong\CLionProjects\scanner\incompleted\token.c
 
 CMakeFiles/untitled3.dir/incompleted/token.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/untitled3.dir/incompleted/token.c.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\cuong\CLionProjects\untitled3\incompleted\token.c > CMakeFiles\untitled3.dir\incompleted\token.c.i
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\cuong\CLionProjects\scanner\incompleted\token.c > CMakeFiles\untitled3.dir\incompleted\token.c.i
 
 CMakeFiles/untitled3.dir/incompleted/token.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/untitled3.dir/incompleted/token.c.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\cuong\CLionProjects\untitled3\incompleted\token.c -o CMakeFiles\untitled3.dir\incompleted\token.c.s
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\cuong\CLionProjects\scanner\incompleted\token.c -o CMakeFiles\untitled3.dir\incompleted\token.c.s
 
 # Object files for target untitled3
 untitled3_OBJECTS = \
@@ -161,7 +161,7 @@ untitled3.exe: CMakeFiles/untitled3.dir/build.make
 untitled3.exe: CMakeFiles/untitled3.dir/linklibs.rsp
 untitled3.exe: CMakeFiles/untitled3.dir/objects1.rsp
 untitled3.exe: CMakeFiles/untitled3.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\cuong\CLionProjects\untitled3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking C executable untitled3.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\cuong\CLionProjects\scanner\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking C executable untitled3.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\untitled3.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -174,6 +174,6 @@ CMakeFiles/untitled3.dir/clean:
 .PHONY : CMakeFiles/untitled3.dir/clean
 
 CMakeFiles/untitled3.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\cuong\CLionProjects\untitled3 C:\Users\cuong\CLionProjects\untitled3 C:\Users\cuong\CLionProjects\untitled3\cmake-build-debug C:\Users\cuong\CLionProjects\untitled3\cmake-build-debug C:\Users\cuong\CLionProjects\untitled3\cmake-build-debug\CMakeFiles\untitled3.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\cuong\CLionProjects\scanner C:\Users\cuong\CLionProjects\scanner C:\Users\cuong\CLionProjects\scanner\cmake-build-debug C:\Users\cuong\CLionProjects\scanner\cmake-build-debug C:\Users\cuong\CLionProjects\scanner\cmake-build-debug\CMakeFiles\untitled3.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/untitled3.dir/depend
 

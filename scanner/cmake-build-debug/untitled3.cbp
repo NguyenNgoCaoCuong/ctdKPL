@@ -8,18 +8,18 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/Users/cuong/CLionProjects/untitled3/cmake-build-debug"/>
+				<Option working_dir="C:/Users/cuong/CLionProjects/scanner/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/cuong/CLionProjects/untitled3/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/cuong/CLionProjects/untitled3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/cuong/CLionProjects/untitled3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/cuong/CLionProjects/untitled3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/cuong/CLionProjects/scanner/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/cuong/CLionProjects/scanner/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/cuong/CLionProjects/scanner/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/cuong/CLionProjects/scanner/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="untitled3">
-				<Option output="C:/Users/cuong/CLionProjects/untitled3/cmake-build-debug/untitled3.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/cuong/CLionProjects/untitled3/cmake-build-debug"/>
+				<Option output="C:/Users/cuong/CLionProjects/scanner/cmake-build-debug/untitled3.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/cuong/CLionProjects/scanner/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -29,15 +29,15 @@
 					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/cuong/CLionProjects/untitled3/cmake-build-debug/Makefile&quot;  VERBOSE=1 untitled3"/>
-					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/cuong/CLionProjects/untitled3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/cuong/CLionProjects/untitled3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/cuong/CLionProjects/untitled3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/cuong/CLionProjects/scanner/cmake-build-debug/Makefile&quot;  VERBOSE=1 untitled3"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/cuong/CLionProjects/scanner/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/cuong/CLionProjects/scanner/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/cuong/CLionProjects/scanner/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="untitled3/fast">
-				<Option output="C:/Users/cuong/CLionProjects/untitled3/cmake-build-debug/untitled3.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/cuong/CLionProjects/untitled3/cmake-build-debug"/>
+				<Option output="C:/Users/cuong/CLionProjects/scanner/cmake-build-debug/untitled3.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/cuong/CLionProjects/scanner/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -47,61 +47,61 @@
 					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/cuong/CLionProjects/untitled3/cmake-build-debug/Makefile&quot;  VERBOSE=1 untitled3/fast"/>
-					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/cuong/CLionProjects/untitled3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/cuong/CLionProjects/untitled3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/cuong/CLionProjects/untitled3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/cuong/CLionProjects/scanner/cmake-build-debug/Makefile&quot;  VERBOSE=1 untitled3/fast"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/cuong/CLionProjects/scanner/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/cuong/CLionProjects/scanner/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/cuong/CLionProjects/scanner/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="C:/Users/cuong/CLionProjects/untitled3/cmake-build-debug"/>
+				<Option working_dir="C:/Users/cuong/CLionProjects/scanner/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/cuong/CLionProjects/untitled3/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/cuong/CLionProjects/untitled3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/cuong/CLionProjects/untitled3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/cuong/CLionProjects/untitled3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/cuong/CLionProjects/scanner/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/cuong/CLionProjects/scanner/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/cuong/CLionProjects/scanner/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/cuong/CLionProjects/scanner/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="C:/Users/cuong/CLionProjects/untitled3/cmake-build-debug"/>
+				<Option working_dir="C:/Users/cuong/CLionProjects/scanner/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/cuong/CLionProjects/untitled3/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/cuong/CLionProjects/untitled3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/cuong/CLionProjects/untitled3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/cuong/CLionProjects/untitled3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/cuong/CLionProjects/scanner/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/cuong/CLionProjects/scanner/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/cuong/CLionProjects/scanner/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/cuong/CLionProjects/scanner/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/cuong/CLionProjects/untitled3/incompleted/charcode.c">
+		<Unit filename="C:/Users/cuong/CLionProjects/scanner/incompleted/charcode.c">
 			<Option target="untitled3"/>
 		</Unit>
-		<Unit filename="C:/Users/cuong/CLionProjects/untitled3/incompleted/charcode.h">
+		<Unit filename="C:/Users/cuong/CLionProjects/scanner/incompleted/charcode.h">
 			<Option target="untitled3"/>
 		</Unit>
-		<Unit filename="C:/Users/cuong/CLionProjects/untitled3/incompleted/error.c">
+		<Unit filename="C:/Users/cuong/CLionProjects/scanner/incompleted/error.c">
 			<Option target="untitled3"/>
 		</Unit>
-		<Unit filename="C:/Users/cuong/CLionProjects/untitled3/incompleted/error.h">
+		<Unit filename="C:/Users/cuong/CLionProjects/scanner/incompleted/error.h">
 			<Option target="untitled3"/>
 		</Unit>
-		<Unit filename="C:/Users/cuong/CLionProjects/untitled3/incompleted/reader.c">
+		<Unit filename="C:/Users/cuong/CLionProjects/scanner/incompleted/reader.c">
 			<Option target="untitled3"/>
 		</Unit>
-		<Unit filename="C:/Users/cuong/CLionProjects/untitled3/incompleted/reader.h">
+		<Unit filename="C:/Users/cuong/CLionProjects/scanner/incompleted/reader.h">
 			<Option target="untitled3"/>
 		</Unit>
-		<Unit filename="C:/Users/cuong/CLionProjects/untitled3/incompleted/scanner.c">
+		<Unit filename="C:/Users/cuong/CLionProjects/scanner/incompleted/scanner.c">
 			<Option target="untitled3"/>
 		</Unit>
-		<Unit filename="C:/Users/cuong/CLionProjects/untitled3/incompleted/token.c">
+		<Unit filename="C:/Users/cuong/CLionProjects/scanner/incompleted/token.c">
 			<Option target="untitled3"/>
 		</Unit>
-		<Unit filename="C:/Users/cuong/CLionProjects/untitled3/incompleted/token.h">
+		<Unit filename="C:/Users/cuong/CLionProjects/scanner/incompleted/token.h">
 			<Option target="untitled3"/>
 		</Unit>
-		<Unit filename="C:/Users/cuong/CLionProjects/untitled3/CMakeLists.txt">
+		<Unit filename="C:/Users/cuong/CLionProjects/scanner/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

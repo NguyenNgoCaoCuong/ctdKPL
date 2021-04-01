@@ -4,11 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "C:/Users/cuong/CLionProjects/untitled3/incompleted/charcode.c" "C:/Users/cuong/CLionProjects/untitled3/cmake-build-debug/CMakeFiles/untitled3.dir/incompleted/charcode.c.obj"
-  "C:/Users/cuong/CLionProjects/untitled3/incompleted/error.c" "C:/Users/cuong/CLionProjects/untitled3/cmake-build-debug/CMakeFiles/untitled3.dir/incompleted/error.c.obj"
-  "C:/Users/cuong/CLionProjects/untitled3/incompleted/reader.c" "C:/Users/cuong/CLionProjects/untitled3/cmake-build-debug/CMakeFiles/untitled3.dir/incompleted/reader.c.obj"
-  "C:/Users/cuong/CLionProjects/untitled3/incompleted/scanner.c" "C:/Users/cuong/CLionProjects/untitled3/cmake-build-debug/CMakeFiles/untitled3.dir/incompleted/scanner.c.obj"
-  "C:/Users/cuong/CLionProjects/untitled3/incompleted/token.c" "C:/Users/cuong/CLionProjects/untitled3/cmake-build-debug/CMakeFiles/untitled3.dir/incompleted/token.c.obj"
+  "C:/Users/cuong/CLionProjects/scanner/incompleted/charcode.c" "C:/Users/cuong/CLionProjects/scanner/cmake-build-debug/CMakeFiles/untitled3.dir/incompleted/charcode.c.obj"
+  "C:/Users/cuong/CLionProjects/scanner/incompleted/error.c" "C:/Users/cuong/CLionProjects/scanner/cmake-build-debug/CMakeFiles/untitled3.dir/incompleted/error.c.obj"
+  "C:/Users/cuong/CLionProjects/scanner/incompleted/reader.c" "C:/Users/cuong/CLionProjects/scanner/cmake-build-debug/CMakeFiles/untitled3.dir/incompleted/reader.c.obj"
+  "C:/Users/cuong/CLionProjects/scanner/incompleted/scanner.c" "C:/Users/cuong/CLionProjects/scanner/cmake-build-debug/CMakeFiles/untitled3.dir/incompleted/scanner.c.obj"
+  "C:/Users/cuong/CLionProjects/scanner/incompleted/token.c" "C:/Users/cuong/CLionProjects/scanner/cmake-build-debug/CMakeFiles/untitled3.dir/incompleted/token.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

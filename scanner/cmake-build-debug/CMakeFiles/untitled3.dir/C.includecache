@@ -6,13 +6,31 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/cuong/CLionProjects/untitled3/incompleted/charcode.h
+C:/Users/cuong/CLionProjects/scanner/incompleted/charcode.c
+charcode.h
+C:/Users/cuong/CLionProjects/scanner/incompleted/charcode.h
 
-C:/Users/cuong/CLionProjects/untitled3/incompleted/error.h
+C:/Users/cuong/CLionProjects/scanner/incompleted/charcode.h
 
-C:/Users/cuong/CLionProjects/untitled3/incompleted/reader.h
+C:/Users/cuong/CLionProjects/scanner/incompleted/error.c
+stdio.h
+-
+stdlib.h
+-
+error.h
+C:/Users/cuong/CLionProjects/scanner/incompleted/error.h
 
-C:/Users/cuong/CLionProjects/untitled3/incompleted/scanner.c
+C:/Users/cuong/CLionProjects/scanner/incompleted/error.h
+
+C:/Users/cuong/CLionProjects/scanner/incompleted/reader.c
+stdio.h
+-
+reader.h
+C:/Users/cuong/CLionProjects/scanner/incompleted/reader.h
+
+C:/Users/cuong/CLionProjects/scanner/incompleted/reader.h
+
+C:/Users/cuong/CLionProjects/scanner/incompleted/scanner.c
 stdio.h
 -
 stdlib.h
@@ -22,13 +40,21 @@ string.h
 limits.h
 -
 reader.h
-C:/Users/cuong/CLionProjects/untitled3/incompleted/reader.h
+C:/Users/cuong/CLionProjects/scanner/incompleted/reader.h
 charcode.h
-C:/Users/cuong/CLionProjects/untitled3/incompleted/charcode.h
+C:/Users/cuong/CLionProjects/scanner/incompleted/charcode.h
 token.h
-C:/Users/cuong/CLionProjects/untitled3/incompleted/token.h
+C:/Users/cuong/CLionProjects/scanner/incompleted/token.h
 error.h
-C:/Users/cuong/CLionProjects/untitled3/incompleted/error.h
+C:/Users/cuong/CLionProjects/scanner/incompleted/error.h
 
-C:/Users/cuong/CLionProjects/untitled3/incompleted/token.h
+C:/Users/cuong/CLionProjects/scanner/incompleted/token.c
+stdlib.h
+-
+ctype.h
+-
+token.h
+C:/Users/cuong/CLionProjects/scanner/incompleted/token.h
+
+C:/Users/cuong/CLionProjects/scanner/incompleted/token.h
 
