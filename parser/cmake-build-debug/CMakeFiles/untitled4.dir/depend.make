@@ -9,9 +9,6 @@ CMakeFiles/untitled4.dir/incompleted/error.c.obj: ../incompleted/error.h
 CMakeFiles/untitled4.dir/incompleted/error.c.obj: ../incompleted/token.h
 
 CMakeFiles/untitled4.dir/incompleted/main.c.obj: ../incompleted/main.c
-CMakeFiles/untitled4.dir/incompleted/main.c.obj: ../incompleted/parser.h
-CMakeFiles/untitled4.dir/incompleted/main.c.obj: ../incompleted/reader.h
-CMakeFiles/untitled4.dir/incompleted/main.c.obj: ../incompleted/token.h
 
 CMakeFiles/untitled4.dir/incompleted/parser.c.obj: ../incompleted/error.h
 CMakeFiles/untitled4.dir/incompleted/parser.c.obj: ../incompleted/parser.c

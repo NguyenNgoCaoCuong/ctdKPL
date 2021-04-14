@@ -4,13 +4,13 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "C:/Users/cuong/CLionProjects/untitled4/incompleted/charcode.c" "C:/Users/cuong/CLionProjects/untitled4/cmake-build-debug/CMakeFiles/untitled4.dir/incompleted/charcode.c.obj"
-  "C:/Users/cuong/CLionProjects/untitled4/incompleted/error.c" "C:/Users/cuong/CLionProjects/untitled4/cmake-build-debug/CMakeFiles/untitled4.dir/incompleted/error.c.obj"
-  "C:/Users/cuong/CLionProjects/untitled4/incompleted/main.c" "C:/Users/cuong/CLionProjects/untitled4/cmake-build-debug/CMakeFiles/untitled4.dir/incompleted/main.c.obj"
-  "C:/Users/cuong/CLionProjects/untitled4/incompleted/parser.c" "C:/Users/cuong/CLionProjects/untitled4/cmake-build-debug/CMakeFiles/untitled4.dir/incompleted/parser.c.obj"
-  "C:/Users/cuong/CLionProjects/untitled4/incompleted/reader.c" "C:/Users/cuong/CLionProjects/untitled4/cmake-build-debug/CMakeFiles/untitled4.dir/incompleted/reader.c.obj"
-  "C:/Users/cuong/CLionProjects/untitled4/incompleted/scanner.c" "C:/Users/cuong/CLionProjects/untitled4/cmake-build-debug/CMakeFiles/untitled4.dir/incompleted/scanner.c.obj"
-  "C:/Users/cuong/CLionProjects/untitled4/incompleted/token.c" "C:/Users/cuong/CLionProjects/untitled4/cmake-build-debug/CMakeFiles/untitled4.dir/incompleted/token.c.obj"
+  "C:/Users/cuong/CLionProjects/parser/incompleted/charcode.c" "C:/Users/cuong/CLionProjects/parser/cmake-build-debug/CMakeFiles/untitled4.dir/incompleted/charcode.c.obj"
+  "C:/Users/cuong/CLionProjects/parser/incompleted/error.c" "C:/Users/cuong/CLionProjects/parser/cmake-build-debug/CMakeFiles/untitled4.dir/incompleted/error.c.obj"
+  "C:/Users/cuong/CLionProjects/parser/incompleted/main.c" "C:/Users/cuong/CLionProjects/parser/cmake-build-debug/CMakeFiles/untitled4.dir/incompleted/main.c.obj"
+  "C:/Users/cuong/CLionProjects/parser/incompleted/parser.c" "C:/Users/cuong/CLionProjects/parser/cmake-build-debug/CMakeFiles/untitled4.dir/incompleted/parser.c.obj"
+  "C:/Users/cuong/CLionProjects/parser/incompleted/reader.c" "C:/Users/cuong/CLionProjects/parser/cmake-build-debug/CMakeFiles/untitled4.dir/incompleted/reader.c.obj"
+  "C:/Users/cuong/CLionProjects/parser/incompleted/scanner.c" "C:/Users/cuong/CLionProjects/parser/cmake-build-debug/CMakeFiles/untitled4.dir/incompleted/scanner.c.obj"
+  "C:/Users/cuong/CLionProjects/parser/incompleted/token.c" "C:/Users/cuong/CLionProjects/parser/cmake-build-debug/CMakeFiles/untitled4.dir/incompleted/token.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
