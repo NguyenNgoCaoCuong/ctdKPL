@@ -67,10 +67,10 @@ RM = "C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\cuong\CLionProjects\untitled
+CMAKE_SOURCE_DIR = C:\Users\cuong\CLionProjects\untitled3
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\cuong\CLionProjects\untitled\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\cuong\CLionProjects\untitled3\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -99,9 +99,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\cuong\CLionProjects\untitled\cmake-build-debug\CMakeFiles C:\Users\cuong\CLionProjects\untitled\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\cuong\CLionProjects\untitled3\cmake-build-debug\CMakeFiles C:\Users\cuong\CLionProjects\untitled3\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\cuong\CLionProjects\untitled\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\cuong\CLionProjects\untitled3\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -130,44 +130,98 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named untitled
+# Target rules for targets named untitled3
 
 # Build rule for target.
-untitled: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 untitled
-.PHONY : untitled
+untitled3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 untitled3
+.PHONY : untitled3
 
 # fast build rule for target.
-untitled/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/build
-.PHONY : untitled/fast
+untitled3/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled3.dir\build.make CMakeFiles/untitled3.dir/build
+.PHONY : untitled3/fast
 
-main.obj: main.c.obj
+incompleted/debug.obj: incompleted/debug.c.obj
 
-.PHONY : main.obj
+.PHONY : incompleted/debug.obj
 
 # target to build an object file
-main.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/main.c.obj
-.PHONY : main.c.obj
+incompleted/debug.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled3.dir\build.make CMakeFiles/untitled3.dir/incompleted/debug.c.obj
+.PHONY : incompleted/debug.c.obj
 
-main.i: main.c.i
+incompleted/debug.i: incompleted/debug.c.i
 
-.PHONY : main.i
+.PHONY : incompleted/debug.i
 
 # target to preprocess a source file
-main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/main.c.i
-.PHONY : main.c.i
+incompleted/debug.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled3.dir\build.make CMakeFiles/untitled3.dir/incompleted/debug.c.i
+.PHONY : incompleted/debug.c.i
 
-main.s: main.c.s
+incompleted/debug.s: incompleted/debug.c.s
 
-.PHONY : main.s
+.PHONY : incompleted/debug.s
 
 # target to generate assembly for a file
-main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/main.c.s
-.PHONY : main.c.s
+incompleted/debug.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled3.dir\build.make CMakeFiles/untitled3.dir/incompleted/debug.c.s
+.PHONY : incompleted/debug.c.s
+
+incompleted/main.obj: incompleted/main.c.obj
+
+.PHONY : incompleted/main.obj
+
+# target to build an object file
+incompleted/main.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled3.dir\build.make CMakeFiles/untitled3.dir/incompleted/main.c.obj
+.PHONY : incompleted/main.c.obj
+
+incompleted/main.i: incompleted/main.c.i
+
+.PHONY : incompleted/main.i
+
+# target to preprocess a source file
+incompleted/main.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled3.dir\build.make CMakeFiles/untitled3.dir/incompleted/main.c.i
+.PHONY : incompleted/main.c.i
+
+incompleted/main.s: incompleted/main.c.s
+
+.PHONY : incompleted/main.s
+
+# target to generate assembly for a file
+incompleted/main.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled3.dir\build.make CMakeFiles/untitled3.dir/incompleted/main.c.s
+.PHONY : incompleted/main.c.s
+
+incompleted/symtab.obj: incompleted/symtab.c.obj
+
+.PHONY : incompleted/symtab.obj
+
+# target to build an object file
+incompleted/symtab.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled3.dir\build.make CMakeFiles/untitled3.dir/incompleted/symtab.c.obj
+.PHONY : incompleted/symtab.c.obj
+
+incompleted/symtab.i: incompleted/symtab.c.i
+
+.PHONY : incompleted/symtab.i
+
+# target to preprocess a source file
+incompleted/symtab.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled3.dir\build.make CMakeFiles/untitled3.dir/incompleted/symtab.c.i
+.PHONY : incompleted/symtab.c.i
+
+incompleted/symtab.s: incompleted/symtab.c.s
+
+.PHONY : incompleted/symtab.s
+
+# target to generate assembly for a file
+incompleted/symtab.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled3.dir\build.make CMakeFiles/untitled3.dir/incompleted/symtab.c.s
+.PHONY : incompleted/symtab.c.s
 
 # Help Target
 help:
@@ -177,10 +231,16 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... untitled
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
+	@echo ... untitled3
+	@echo ... incompleted/debug.obj
+	@echo ... incompleted/debug.i
+	@echo ... incompleted/debug.s
+	@echo ... incompleted/main.obj
+	@echo ... incompleted/main.i
+	@echo ... incompleted/main.s
+	@echo ... incompleted/symtab.obj
+	@echo ... incompleted/symtab.i
+	@echo ... incompleted/symtab.s
 .PHONY : help
 
 
