@@ -6,23 +6,25 @@
 
 #ifndef __ERROR_H__
 #define __ERROR_H__
+
 #include "token.h"
 
 typedef enum {
-  ERR_ENDOFCOMMENT,
-  ERR_IDENTTOOLONG,
-  ERR_INVALIDCHARCONSTANT,
-  ERR_INVALIDSYMBOL,
-  ERR_INVALIDCONSTANT,
-  ERR_INVALIDTYPE,
-  ERR_INVALIDBASICTYPE,
-  ERR_INVALIDPARAM,
-  ERR_INVALIDSTATEMENT,
-  ERR_INVALIDARGUMENTS,
-  ERR_INVALIDCOMPARATOR,
-  ERR_INVALIDEXPRESSION,
-  ERR_INVALIDTERM,
-  ERR_INVALIDFACTOR
+    ERR_ENDOFCOMMENT,
+    ERR_IDENTTOOLONG,
+    ERR_INVALIDCHARCONSTANT,
+    ERR_INVALIDSYMBOL,
+    ERR_INVALIDCONSTANT,
+    ERR_INVALIDTYPE,
+    ERR_INVALIDBASICTYPE,
+    ERR_INVALIDPARAM,
+    ERR_INVALIDSTATEMENT,
+    ERR_INVALIDARGUMENTS,
+    ERR_INVALIDCOMPARATOR,
+    ERR_INVALIDEXPRESSION,
+    ERR_INVALIDTERM,
+    ERR_INVALIDFACTOR,
+    ERR_INVALIDVAR//---------------
 } ErrorCode;
 
 
@@ -40,9 +42,12 @@ typedef enum {
 #define ERM_INVALIDEXPRESSION "Invalid expression!"
 #define ERM_INVALIDTERM "Invalid term!"//
 #define ERM_INVALIDFACTOR "Invalid factor!"//
+#define ERM_INVALIDVAR "Invalid var!"//-----------
 
 void error(ErrorCode err, int lineNo, int colNo);
+
 void missingToken(TokenType tokenType, int lineNo, int colNo);
+
 void assert(char *msg);
 
 #endif
