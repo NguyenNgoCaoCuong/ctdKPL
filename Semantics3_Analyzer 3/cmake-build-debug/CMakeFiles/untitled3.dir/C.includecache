@@ -1,0 +1,140 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/cuong/CLionProjects/Semantics3_Analyzer 3/incompleted/charcode.c
+charcode.h
+C:/Users/cuong/CLionProjects/Semantics3_Analyzer 3/incompleted/charcode.h
+
+C:/Users/cuong/CLionProjects/Semantics3_Analyzer 3/incompleted/charcode.h
+
+C:/Users/cuong/CLionProjects/Semantics3_Analyzer 3/incompleted/debug.c
+stdio.h
+-
+debug.h
+C:/Users/cuong/CLionProjects/Semantics3_Analyzer 3/incompleted/debug.h
+
+C:/Users/cuong/CLionProjects/Semantics3_Analyzer 3/incompleted/debug.h
+symtab.h
+C:/Users/cuong/CLionProjects/Semantics3_Analyzer 3/incompleted/symtab.h
+
+C:/Users/cuong/CLionProjects/Semantics3_Analyzer 3/incompleted/error.c
+stdio.h
+-
+stdlib.h
+-
+error.h
+C:/Users/cuong/CLionProjects/Semantics3_Analyzer 3/incompleted/error.h
+
+C:/Users/cuong/CLionProjects/Semantics3_Analyzer 3/incompleted/error.h
+token.h
+C:/Users/cuong/CLionProjects/Semantics3_Analyzer 3/incompleted/token.h
+
+C:/Users/cuong/CLionProjects/Semantics3_Analyzer 3/incompleted/main.c
+stdio.h
+-
+stdlib.h
+-
+reader.h
+C:/Users/cuong/CLionProjects/Semantics3_Analyzer 3/incompleted/reader.h
+parser.h
+C:/Users/cuong/CLionProjects/Semantics3_Analyzer 3/incompleted/parser.h
+
+C:/Users/cuong/CLionProjects/Semantics3_Analyzer 3/incompleted/parser.c
+stdio.h
+-
+stdlib.h
+-
+reader.h
+C:/Users/cuong/CLionProjects/Semantics3_Analyzer 3/incompleted/reader.h
+scanner.h
+C:/Users/cuong/CLionProjects/Semantics3_Analyzer 3/incompleted/scanner.h
+parser.h
+C:/Users/cuong/CLionProjects/Semantics3_Analyzer 3/incompleted/parser.h
+semantics.h
+C:/Users/cuong/CLionProjects/Semantics3_Analyzer 3/incompleted/semantics.h
+error.h
+C:/Users/cuong/CLionProjects/Semantics3_Analyzer 3/incompleted/error.h
+debug.h
+C:/Users/cuong/CLionProjects/Semantics3_Analyzer 3/incompleted/debug.h
+
+C:/Users/cuong/CLionProjects/Semantics3_Analyzer 3/incompleted/parser.h
+token.h
+C:/Users/cuong/CLionProjects/Semantics3_Analyzer 3/incompleted/token.h
+symtab.h
+C:/Users/cuong/CLionProjects/Semantics3_Analyzer 3/incompleted/symtab.h
+
+C:/Users/cuong/CLionProjects/Semantics3_Analyzer 3/incompleted/reader.c
+stdio.h
+-
+reader.h
+C:/Users/cuong/CLionProjects/Semantics3_Analyzer 3/incompleted/reader.h
+
+C:/Users/cuong/CLionProjects/Semantics3_Analyzer 3/incompleted/reader.h
+
+C:/Users/cuong/CLionProjects/Semantics3_Analyzer 3/incompleted/scanner.c
+stdio.h
+-
+stdlib.h
+-
+ctype.h
+-
+reader.h
+C:/Users/cuong/CLionProjects/Semantics3_Analyzer 3/incompleted/reader.h
+charcode.h
+C:/Users/cuong/CLionProjects/Semantics3_Analyzer 3/incompleted/charcode.h
+token.h
+C:/Users/cuong/CLionProjects/Semantics3_Analyzer 3/incompleted/token.h
+error.h
+C:/Users/cuong/CLionProjects/Semantics3_Analyzer 3/incompleted/error.h
+scanner.h
+C:/Users/cuong/CLionProjects/Semantics3_Analyzer 3/incompleted/scanner.h
+
+C:/Users/cuong/CLionProjects/Semantics3_Analyzer 3/incompleted/scanner.h
+token.h
+C:/Users/cuong/CLionProjects/Semantics3_Analyzer 3/incompleted/token.h
+
+C:/Users/cuong/CLionProjects/Semantics3_Analyzer 3/incompleted/semantics.c
+stdlib.h
+-
+string.h
+-
+semantics.h
+C:/Users/cuong/CLionProjects/Semantics3_Analyzer 3/incompleted/semantics.h
+error.h
+C:/Users/cuong/CLionProjects/Semantics3_Analyzer 3/incompleted/error.h
+
+C:/Users/cuong/CLionProjects/Semantics3_Analyzer 3/incompleted/semantics.h
+symtab.h
+C:/Users/cuong/CLionProjects/Semantics3_Analyzer 3/incompleted/symtab.h
+
+C:/Users/cuong/CLionProjects/Semantics3_Analyzer 3/incompleted/symtab.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+symtab.h
+C:/Users/cuong/CLionProjects/Semantics3_Analyzer 3/incompleted/symtab.h
+error.h
+C:/Users/cuong/CLionProjects/Semantics3_Analyzer 3/incompleted/error.h
+
+C:/Users/cuong/CLionProjects/Semantics3_Analyzer 3/incompleted/symtab.h
+token.h
+C:/Users/cuong/CLionProjects/Semantics3_Analyzer 3/incompleted/token.h
+
+C:/Users/cuong/CLionProjects/Semantics3_Analyzer 3/incompleted/token.c
+stdlib.h
+-
+ctype.h
+-
+token.h
+C:/Users/cuong/CLionProjects/Semantics3_Analyzer 3/incompleted/token.h
+
+C:/Users/cuong/CLionProjects/Semantics3_Analyzer 3/incompleted/token.h
+
