@@ -18,7 +18,7 @@ int main(int argc, char *argv[]) {
 //    return -1;
 //  }
 
-  if (compile("tests/example5.kpl") == IO_ERROR) {
+  if (compile("tests/errorUnDeclaredIdent.kpl") == IO_ERROR) {
     printf("Can\'t read input file!\n");
     return -1;
   }

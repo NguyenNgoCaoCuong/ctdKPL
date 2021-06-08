@@ -13,12 +13,13 @@
 /******************************************************************/
 
 int main(int argc, char *argv[]) {
-//  if (argc <= 1) {
-//    printf("parser: no input file.\n");
-//    return -1;
-//  }
+  if (argc <= 1) {
+    printf("parser: no input file.\n");
+    return -1;
+  }
 
-  if (compile("tests/example6.kpl") == IO_ERROR) {
+
+    if (compile(argv[1]) == IO_ERROR) {
     printf("Can\'t read input file!\n");
     return -1;
   }
