@@ -416,7 +416,7 @@ Type *compileLValue(void) {
     if (obj->kind == OBJ_VARIABLE) {
         if (obj->varAttrs->type->typeClass == TP_ARRAY) type = compileIndexes(obj->varAttrs->type);
         else type = obj->varAttrs->type;
-    } else if(obj->kind == OBJ_FUNCTION)
+    } else if (obj->kind == OBJ_FUNCTION)
         type = obj->funcAttrs->returnType;
     else type = obj->paramAttrs->type;
     return type;
@@ -472,7 +472,7 @@ void compileForSt(void) {
 
     // check if the identifier is a variable
     Object *var = checkDeclaredVariable(currentToken->string);
-  //  checkBasicType(var->varAttrs->type);
+    //  checkBasicType(var->varAttrs->type);
     Type *t1 = var->varAttrs->type;
     eat(SB_ASSIGN);
     checkTypeEquality(t1, compileExpression());
@@ -494,23 +494,27 @@ void compileArgument(Object *param) {
 }
 
 void compileArguments(ObjectNode *paramList) {
+    //   printf("goi t %d\n",currentToken->lineNo);
+    int t = 1;
+    if (paramList != NULL && paramList->object != NULL) t = 2;
     switch (lookAhead->tokenType) {
         case SB_LPAR:
+            if(paramList == NULL) error(ERR_PARAMETERS_ARGUMENTS_INCONSISTENCY, currentToken->lineNo, currentToken->colNo);
             eat(SB_LPAR);
             ObjectNode *param = paramList;
             compileArgument(param->object);
             while (lookAhead->tokenType == SB_COMMA) {
                 eat(SB_COMMA);
                 param = param->next;
-                if (param == NULL) error(ERR_PARAMETERS_ARGUMENTS_INCONSISTENCY, currentToken->lineNo, currentToken->colNo);
+                if (param == NULL)
+                    error(ERR_PARAMETERS_ARGUMENTS_INCONSISTENCY, currentToken->lineNo, currentToken->colNo);
                 else compileArgument(param->object);
             }
 
             if (param->next != NULL)
                 error(ERR_PARAMETERS_ARGUMENTS_INCONSISTENCY, currentToken->lineNo, currentToken->colNo);
-
             eat(SB_RPAR);
-            break;
+            return;
             // Check FOLLOW set
         case SB_TIMES:
         case SB_SLASH:
@@ -531,14 +535,16 @@ void compileArguments(ObjectNode *paramList) {
         case KW_END:
         case KW_ELSE:
         case KW_THEN:
+            if (t == 2) error(ERR_PARAMETERS_ARGUMENTS_INCONSISTENCY, currentToken->lineNo, currentToken->colNo);
             break;
         default:
             error(ERR_INVALID_ARGUMENTS, lookAhead->lineNo, lookAhead->colNo);
     }
+
 }
 
 void compileCondition(void) {
-    Type *type =  compileExpression();
+    Type *type = compileExpression();
 
     switch (lookAhead->tokenType) {
         case SB_EQ:
@@ -563,7 +569,7 @@ void compileCondition(void) {
             error(ERR_INVALID_COMPARATOR, lookAhead->lineNo, lookAhead->colNo);
     }
 
-    checkTypeEquality(compileExpression(),type);
+    checkTypeEquality(compileExpression(), type);
 }
 
 Type *compileExpression(void) {
@@ -743,8 +749,10 @@ Type *compileIndexes(Type *arrayType) {
         type = arrayType;
         if (type->typeClass != TP_ARRAY) {
             break;
-        }
+        }else if(lookAhead->tokenType != SB_LSEL)
+            error(ERR_DIMENSIONAL_OF_ARRAY, currentToken->lineNo, currentToken->colNo);
     }
+    if (lookAhead->tokenType == SB_LSEL) error(ERR_DIMENSIONAL_OF_ARRAY, currentToken->lineNo, currentToken->colNo);
     return type;
 }
 
