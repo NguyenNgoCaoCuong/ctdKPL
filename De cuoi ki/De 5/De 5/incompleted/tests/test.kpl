@@ -1,0 +1,9 @@
+Program Example2; (* Factorial *)
+   
+Var s : String;
+    k : String;
+    d : Double;
+    i : Integer;
+Begin
+    s,d := "nguyen ngo cao cuong",1.0;
+End. (* Factorial *)

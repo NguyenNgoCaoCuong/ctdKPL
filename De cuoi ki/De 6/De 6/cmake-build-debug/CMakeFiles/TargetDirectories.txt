@@ -1,0 +1,3 @@
+/home/ubuntu/Màn hình nền/Study/OnTapCuoiKy/Chương trình dịch/Lý thuyết chương trình dịch/bài tập/De 9/Semantics_Analyzer 4/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/ubuntu/Màn hình nền/Study/OnTapCuoiKy/Chương trình dịch/Lý thuyết chương trình dịch/bài tập/De 9/Semantics_Analyzer 4/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/ubuntu/Màn hình nền/Study/OnTapCuoiKy/Chương trình dịch/Lý thuyết chương trình dịch/bài tập/De 9/Semantics_Analyzer 4/cmake-build-debug/CMakeFiles/untitled5.dir

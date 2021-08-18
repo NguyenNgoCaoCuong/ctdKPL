@@ -1,0 +1,12 @@
+PROGRAM Fibonacci;
+VAR n: INTEGER;
+FUNCTION fibonacci(p : INTEGER):INTEGER;
+    BEGIN
+        IF p = 0 THEN fibonacci := 0
+        ELSE IF p = 1 THEN fibonacci := 1
+        ELSE fibonacci := fibonacci(p-1) + fibonacci(p-2);
+    END;
+BEGIN
+    n := ReadI;
+    CALL WriteI(fibonacci(n));
+END.

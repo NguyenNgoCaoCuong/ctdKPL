@@ -1,0 +1,15 @@
+Program Example2; /* Factorial */
+   
+Var n,y,x,a : Integer;
+
+Function F(n : Integer) : Integer;
+  Begin
+    If N == 0 Then F := 1 Else F := N * F (N - 1);
+  End;
+
+Begin
+  For N := 1 To 7 Do
+    Begin
+      n := n+y = x-a ? n : y;
+    End;
+End. // Factorial */

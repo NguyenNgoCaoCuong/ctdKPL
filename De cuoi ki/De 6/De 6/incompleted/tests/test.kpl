@@ -1,0 +1,13 @@
+Program Example2; (* Factorial *)
+   
+Var s : String;
+    k : String;
+    d : Double;
+    x : Integer;
+Begin
+    DO
+        WHILE x = 2
+            DO
+                WHILE x = 1
+                    DO x := 2
+End. (* Factorial *)

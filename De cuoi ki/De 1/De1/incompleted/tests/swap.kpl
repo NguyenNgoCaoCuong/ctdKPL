@@ -1,0 +1,6 @@
+PROGRAM swap;
+VAR x:INTEGER;
+    y:INTEGER;
+    BEGIN
+        x,y := y,x;
+    END.

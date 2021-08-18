@@ -1,0 +1,100 @@
+Bai 1:
+a)
+    Cai dat thuat toan :
+        PROGRAM BAI1;
+            VAR n : INTEGER;
+            PROCEDURE handle(a: INTEGER);
+                BEGIN
+                    IF a = 1 THEN CALL WriteI(a)
+                    ELSE IF n - a/2*2 = 0 THEN
+                        BEGIN
+                            a := a/2;
+                            CALL WriteI(a);
+                            CALL handle(a);
+                        END
+                    ELSE
+                        BEGIN
+                            a := a*3 + 1;
+                            CALL WriteI(a);
+                            CALL handle(a);
+                        END
+                END;
+            BEGIN
+                n := ReadI;
+                CALL handle(n);
+            END.
+b)
+    Chay chuong trinh :
+        Program BAI1
+            Var N : Int
+            Procedure HANDLE
+                Param A : Int
+
+Bai 2:
+    CU PHAP TRUOC KHI THAY DOI :
+        AssignSt ::= <Variable> SB_ASSIGN <Expression>
+        AssignSt ::= TK_IDENT SB_ASSIGN <Expression>
+    CU PHAP SAU KHI THAY DOI :
+        AssignSt ::= <AssignStLeft> SB_ASSIGN <AssignStRight>
+
+        AssignStLeft ::= <Variable> <AssignStLefts>
+        AssignStLeft ::= TK_IDENT <AssignStLefts>
+
+        AssignStLefts ::= SB_COMMA <AssignStLeft>
+        AssignStLefts ::= (Epxilon)
+
+        AssignStRight ::= <Expression> <AssignStRights>
+
+        AssignStRights ::= SB_COMMA <AssignStRight>
+        AssignStRights ::= (Epxilon)
+
+    CODE CAI DAT CHO CU PHAP TREN : (chua co phan kiem tra ngu nghia)
+
+        void compileAssignSt(void) {
+
+        //    Type *t1 = compileLValue();
+            compileAssignStLeft();
+            eat(SB_ASSIGN);
+            compileAssignStRight();
+        //    checkTypeEquality(t1, compileExpression());
+        }
+
+        void compileAssignStLefts(void) {
+            if (lookAhead->tokenType == SB_COMMA) {
+                eat(SB_COMMA);
+                compileAssignStLeft();
+            }
+        }
+
+        void compileAssignStLeft(void) {
+            compileLValue();
+            compileAssignStLefts();
+        }
+
+
+        void compileAssignStRight(void) {
+            compileExpression();
+            compileAssignStRights();
+        }
+
+        void compileAssignStRights(void) {
+            if (lookAhead->tokenType == SB_COMMA) {
+                eat(SB_COMMA);
+                compileAssignStRight();
+            }
+        }
+
+a) Chuong trinh swap.kpl
+    PROGRAM swap;
+    VAR x:INTEGER;
+        y:INTEGER;
+    BEGIN
+        x,y := y,x;
+    END.
+b) Bien dich chuong trinh swap.kpl
+    Program SWAP
+        Var X : Int
+        Var Y : Int
+
+c) Sinh ma may cho chuong trinh swap.kpl
+

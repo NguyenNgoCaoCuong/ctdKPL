@@ -1,0 +1,51 @@
+Cau 1: Cac san xuat duoc them vao van pham de thuc hien bieu thuc phep chia module lay phan du :
+        <Module> ::= <Expression> SB_MODULE <Expression>
+        <AssignSt> ::= <Variable> SB_ASSIGN <Module>
+        <AssignSt> ::= TK_IDENT SB_ASSIGN <Module>
+    (SB_MODULE : %)
+
+Cau 2: Chep ham (^-^)
+
+    Object *checkDeclaredLValueIdent(char *name) {
+        Object *obj = lookupObject(name);
+        if (obj == NULL)
+            error(ERR_UNDECLARED_IDENT, currentToken->lineNo, currentToken->colNo);
+
+        switch (obj->kind) {
+            case OBJ_VARIABLE:
+            case OBJ_PARAMETER:
+                break;
+            case OBJ_FUNCTION:
+                if (obj != symtab->currentScope->owner)
+                    error(ERR_INVALID_IDENT, currentToken->lineNo, currentToken->colNo);
+                break;
+            default:
+                error(ERR_INVALID_IDENT, currentToken->lineNo, currentToken->colNo);
+        }
+
+        return obj;
+    }
+
+Cau 3:
+
+    void compileForSt(void) {
+
+        eat(KW_FOR);
+        eat(TK_IDENT);
+
+        // check if the identifier is a variable
+        Object *var = checkDeclaredVariable(currentToken->string);
+        //  checkBasicType(var->varAttrs->type);
+        Type *t1 = var->varAttrs->type;
+        eat(SB_ASSIGN);
+        checkTypeEquality(t1, compileExpression());
+        eat(KW_TO);
+        checkTypeEquality(t1, compileExpression());
+        eat(KW_DO);
+        compileStatement();
+    }
+
+    Giai thich : t1 la kieu cua chi so vong lap For, no duoc kiem tra tuong ung kieu voi bieu thuc Expression thong qua ham checkTypeEquality(), ma kieu cua mot Expression tra ve trong KPL khong the la kieu thuc.
+    Hon nua t1 la kieu cua mot bien, ma bien trong kpl khong co kieu Float, chinh vi vay doan code tren kiem tra duoc su nhat quan ve chi so vong lap For khong the co chi so la so thuc Float.
+
+Cau 4:
