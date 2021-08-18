@@ -1,0 +1,7 @@
+Program swap;
+Var x:Integer;
+    y:Integer;
+    c:Char;
+Begin
+     c := Sum x-y,y+x+x+x,y-x-x-y;
+End.
