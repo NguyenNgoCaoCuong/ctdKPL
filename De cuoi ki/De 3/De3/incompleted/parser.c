@@ -441,39 +441,25 @@ void compileAssignSt(void) {
     t1 = compileLValue();
     eat(SB_ASSIGN);
     t2 = compileExpression();
-    int tag = 0;
     switch (lookAhead->tokenType) {
         case SB_EQ:
-            eat(SB_EQ);
-            tag = 1;
-            break;
         case SB_GE:
-            eat(SB_GE);
-            tag = 1;
-            break;
         case SB_LT:
-            eat(SB_LT);
-            tag = 1;
-            break;
         case SB_NEQ:
-            eat(SB_NEQ);
-            tag = 1;
-            break;
+            eat(lookAhead->tokenType);
+            t3 = compileExpression();
+            eat(SB_QUESTION);
+            t4 = compileExpression();
+            eat(SB_COLON);
+            t5 = compileExpression();
+
+            checkTypeEquality(t1, t4);
+            checkTypeEquality(t1,t5);
+            checkTypeEquality(t2,makeIntType());
+            checkTypeEquality(t3,makeIntType());
+            return;
     }
-    if (tag == 1) {
-        t3 = compileExpression();
-        eat(SB_QUESTION);
-        t4 = compileExpression();
-        eat(SB_COLON);
-        t5 = compileExpression();
-
-        checkTypeEquality(t1, t4);
-        checkTypeEquality(t1,t5);
-        checkTypeEquality(t2,makeIntType());
-        checkTypeEquality(t3,makeIntType());
-
-    } else checkTypeEquality(t1,t2);
-
+    checkTypeEquality(t1,t2);
 }
 
 void compileCallSt(void) {
@@ -822,7 +808,7 @@ int compile(char *fileName) {
 
     printObject(symtab->program, 0);
 
-    cleanSymTab();
+   // cleanSymTab();
 
     free(currentToken);
     free(lookAhead);
