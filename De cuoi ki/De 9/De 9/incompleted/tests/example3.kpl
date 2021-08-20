@@ -1,0 +1,15 @@
+PROGRAM  EXAMPLE3;  (* TOWER OF HANOI *)
+VAR  I:INTEGER;  
+     N:INTEGER;  
+     y:INTEGER;
+BEGIN
+    n := 1
+    Switch 2+3
+    Begin
+        case 2 : 3+4
+        case 4 : 4 + 5
+        default :
+            2-3
+    End;
+    n := 1
+END.  (* TOWER OF HANOI *)

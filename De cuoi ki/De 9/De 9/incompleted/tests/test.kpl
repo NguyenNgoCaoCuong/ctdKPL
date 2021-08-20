@@ -1,0 +1,34 @@
+PROGRAM  EXAMPLE3;  (* TOWER OF HANOI *)
+VAR  I:INTEGER;  
+     N:INTEGER;  
+     y:INTEGER;
+     k:INTEGER;
+     d:Double;
+     s:String;
+BEGIN
+    n := 1;
+    Switch 2+3
+    Begin
+        case 2 :
+            Begin
+                n := 3+4;
+                IF 1 = 2 Then
+                    Begin
+                        n :=2+4;
+                    End;
+                Switch 2+3
+                Begin
+                    case 1:
+                        y:=3
+                        break
+                End
+            End
+            break
+        case 4 : 4 + 5 break
+        default :
+            2-3
+    End;
+    n := 1;
+    d := 1.0 + 2.0 + 1;
+    s := "Nguyen Ngo " + "nge ";
+END.  (* TOWER OF HANOI *)

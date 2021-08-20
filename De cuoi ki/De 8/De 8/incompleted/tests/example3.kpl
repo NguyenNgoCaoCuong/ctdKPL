@@ -1,0 +1,7 @@
+PROGRAM  EXAMPLE3;  (* TOWER OF HANOI *)
+VAR  I:INTEGER;  
+     N:Char;
+
+BEGIN
+    I,N := 0,0;
+END.  (* TOWER OF HANOI *)

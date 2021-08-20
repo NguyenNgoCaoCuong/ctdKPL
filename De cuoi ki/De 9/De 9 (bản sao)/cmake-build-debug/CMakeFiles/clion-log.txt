@@ -1,0 +1,11 @@
+/home/ubuntu/Downloads/clion-2020.1.2/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" "/home/ubuntu/Màn hình nền/Study/OnTapCuoiKy/Chương trình dịch/Lý thuyết chương trình dịch/bài tập/ctdKPL/De cuoi ki/De 9/De 9"
+-- The C compiler identification is GNU 9.3.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc - works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ubuntu/Màn hình nền/Study/OnTapCuoiKy/Chương trình dịch/Lý thuyết chương trình dịch/bài tập/ctdKPL/De cuoi ki/De 9/De 9/cmake-build-debug

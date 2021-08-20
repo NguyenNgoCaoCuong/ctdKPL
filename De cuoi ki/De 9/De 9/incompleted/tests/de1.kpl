@@ -1,0 +1,24 @@
+PROGRAM BAI1;
+    VAR n : INTEGER;
+    PROCEDURE handle(a: INTEGER);
+        BEGIN
+            IF a = 1 THEN CALL WriteI(a)
+            ELSE IF n - a/2*2 = 0 THEN
+                BEGIN
+                    a := a/2;
+                    CALL WriteI(a);
+                    CALL handle(a);
+                END
+            ELSE
+                BEGIN
+                    a := a*3 + 1;
+                    CALL WriteI(a);
+                    CALL handle(a);
+                END
+        END;
+    BEGIN
+        n := ReadI;
+        CALL handle(n);
+    END.
+
+

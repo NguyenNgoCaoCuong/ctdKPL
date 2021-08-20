@@ -8,38 +8,38 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/ubuntu/Màn hình nền/Study/OnTapCuoiKy/Chương trình dịch/Lý thuyết chương trình dịch/bài tập/De 1/Semantics_Analyzer 4/cmake-build-debug"/>
+				<Option working_dir="/home/ubuntu/Màn hình nền/Study/OnTapCuoiKy/Chương trình dịch/Lý thuyết chương trình dịch/bài tập/ctdKPL/De cuoi ki/De 1/De1/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/ubuntu/Màn\ hình\ nền/Study/OnTapCuoiKy/Chương\ trình\ dịch/Lý\ thuyết\ chương\ trình\ dịch/bài\ tập/De\ 1/Semantics_Analyzer\ 4/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/ubuntu/Màn\ hình\ nền/Study/OnTapCuoiKy/Chương\ trình\ dịch/Lý\ thuyết\ chương\ trình\ dịch/bài\ tập/De\ 1/Semantics_Analyzer\ 4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/ubuntu/Màn\ hình\ nền/Study/OnTapCuoiKy/Chương\ trình\ dịch/Lý\ thuyết\ chương\ trình\ dịch/bài\ tập/De\ 1/Semantics_Analyzer\ 4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/ubuntu/Màn\ hình\ nền/Study/OnTapCuoiKy/Chương\ trình\ dịch/Lý\ thuyết\ chương\ trình\ dịch/bài\ tập/De\ 1/Semantics_Analyzer\ 4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/ubuntu/Màn\ hình\ nền/Study/OnTapCuoiKy/Chương\ trình\ dịch/Lý\ thuyết\ chương\ trình\ dịch/bài\ tập/ctdKPL/De\ cuoi\ ki/De\ 1/De1/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/ubuntu/Màn\ hình\ nền/Study/OnTapCuoiKy/Chương\ trình\ dịch/Lý\ thuyết\ chương\ trình\ dịch/bài\ tập/ctdKPL/De\ cuoi\ ki/De\ 1/De1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/ubuntu/Màn\ hình\ nền/Study/OnTapCuoiKy/Chương\ trình\ dịch/Lý\ thuyết\ chương\ trình\ dịch/bài\ tập/ctdKPL/De\ cuoi\ ki/De\ 1/De1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/ubuntu/Màn\ hình\ nền/Study/OnTapCuoiKy/Chương\ trình\ dịch/Lý\ thuyết\ chương\ trình\ dịch/bài\ tập/ctdKPL/De\ cuoi\ ki/De\ 1/De1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/ubuntu/Màn hình nền/Study/OnTapCuoiKy/Chương trình dịch/Lý thuyết chương trình dịch/bài tập/De 1/Semantics_Analyzer 4/cmake-build-debug"/>
+				<Option working_dir="/home/ubuntu/Màn hình nền/Study/OnTapCuoiKy/Chương trình dịch/Lý thuyết chương trình dịch/bài tập/ctdKPL/De cuoi ki/De 1/De1/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/ubuntu/Màn\ hình\ nền/Study/OnTapCuoiKy/Chương\ trình\ dịch/Lý\ thuyết\ chương\ trình\ dịch/bài\ tập/De\ 1/Semantics_Analyzer\ 4/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/ubuntu/Màn\ hình\ nền/Study/OnTapCuoiKy/Chương\ trình\ dịch/Lý\ thuyết\ chương\ trình\ dịch/bài\ tập/De\ 1/Semantics_Analyzer\ 4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/ubuntu/Màn\ hình\ nền/Study/OnTapCuoiKy/Chương\ trình\ dịch/Lý\ thuyết\ chương\ trình\ dịch/bài\ tập/De\ 1/Semantics_Analyzer\ 4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/ubuntu/Màn\ hình\ nền/Study/OnTapCuoiKy/Chương\ trình\ dịch/Lý\ thuyết\ chương\ trình\ dịch/bài\ tập/De\ 1/Semantics_Analyzer\ 4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/ubuntu/Màn\ hình\ nền/Study/OnTapCuoiKy/Chương\ trình\ dịch/Lý\ thuyết\ chương\ trình\ dịch/bài\ tập/ctdKPL/De\ cuoi\ ki/De\ 1/De1/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/ubuntu/Màn\ hình\ nền/Study/OnTapCuoiKy/Chương\ trình\ dịch/Lý\ thuyết\ chương\ trình\ dịch/bài\ tập/ctdKPL/De\ cuoi\ ki/De\ 1/De1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/ubuntu/Màn\ hình\ nền/Study/OnTapCuoiKy/Chương\ trình\ dịch/Lý\ thuyết\ chương\ trình\ dịch/bài\ tập/ctdKPL/De\ cuoi\ ki/De\ 1/De1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/ubuntu/Màn\ hình\ nền/Study/OnTapCuoiKy/Chương\ trình\ dịch/Lý\ thuyết\ chương\ trình\ dịch/bài\ tập/ctdKPL/De\ cuoi\ ki/De\ 1/De1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/ubuntu/Màn hình nền/Study/OnTapCuoiKy/Chương trình dịch/Lý thuyết chương trình dịch/bài tập/De 1/Semantics_Analyzer 4/cmake-build-debug"/>
+				<Option working_dir="/home/ubuntu/Màn hình nền/Study/OnTapCuoiKy/Chương trình dịch/Lý thuyết chương trình dịch/bài tập/ctdKPL/De cuoi ki/De 1/De1/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/ubuntu/Màn\ hình\ nền/Study/OnTapCuoiKy/Chương\ trình\ dịch/Lý\ thuyết\ chương\ trình\ dịch/bài\ tập/De\ 1/Semantics_Analyzer\ 4/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/ubuntu/Màn\ hình\ nền/Study/OnTapCuoiKy/Chương\ trình\ dịch/Lý\ thuyết\ chương\ trình\ dịch/bài\ tập/De\ 1/Semantics_Analyzer\ 4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/ubuntu/Màn\ hình\ nền/Study/OnTapCuoiKy/Chương\ trình\ dịch/Lý\ thuyết\ chương\ trình\ dịch/bài\ tập/De\ 1/Semantics_Analyzer\ 4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/ubuntu/Màn\ hình\ nền/Study/OnTapCuoiKy/Chương\ trình\ dịch/Lý\ thuyết\ chương\ trình\ dịch/bài\ tập/De\ 1/Semantics_Analyzer\ 4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/ubuntu/Màn\ hình\ nền/Study/OnTapCuoiKy/Chương\ trình\ dịch/Lý\ thuyết\ chương\ trình\ dịch/bài\ tập/ctdKPL/De\ cuoi\ ki/De\ 1/De1/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/ubuntu/Màn\ hình\ nền/Study/OnTapCuoiKy/Chương\ trình\ dịch/Lý\ thuyết\ chương\ trình\ dịch/bài\ tập/ctdKPL/De\ cuoi\ ki/De\ 1/De1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/ubuntu/Màn\ hình\ nền/Study/OnTapCuoiKy/Chương\ trình\ dịch/Lý\ thuyết\ chương\ trình\ dịch/bài\ tập/ctdKPL/De\ cuoi\ ki/De\ 1/De1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/ubuntu/Màn\ hình\ nền/Study/OnTapCuoiKy/Chương\ trình\ dịch/Lý\ thuyết\ chương\ trình\ dịch/bài\ tập/ctdKPL/De\ cuoi\ ki/De\ 1/De1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="untitled5">
-				<Option output="/home/ubuntu/Màn hình nền/Study/OnTapCuoiKy/Chương trình dịch/Lý thuyết chương trình dịch/bài tập/De 1/Semantics_Analyzer 4/cmake-build-debug/untitled5" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/ubuntu/Màn hình nền/Study/OnTapCuoiKy/Chương trình dịch/Lý thuyết chương trình dịch/bài tập/De 1/Semantics_Analyzer 4/cmake-build-debug"/>
+				<Option output="/home/ubuntu/Màn hình nền/Study/OnTapCuoiKy/Chương trình dịch/Lý thuyết chương trình dịch/bài tập/ctdKPL/De cuoi ki/De 1/De1/cmake-build-debug/untitled5" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ubuntu/Màn hình nền/Study/OnTapCuoiKy/Chương trình dịch/Lý thuyết chương trình dịch/bài tập/ctdKPL/De cuoi ki/De 1/De1/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -50,15 +50,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/ubuntu/Màn\ hình\ nền/Study/OnTapCuoiKy/Chương\ trình\ dịch/Lý\ thuyết\ chương\ trình\ dịch/bài\ tập/De\ 1/Semantics_Analyzer\ 4/cmake-build-debug/Makefile&quot;  VERBOSE=1 untitled5"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/ubuntu/Màn\ hình\ nền/Study/OnTapCuoiKy/Chương\ trình\ dịch/Lý\ thuyết\ chương\ trình\ dịch/bài\ tập/De\ 1/Semantics_Analyzer\ 4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/ubuntu/Màn\ hình\ nền/Study/OnTapCuoiKy/Chương\ trình\ dịch/Lý\ thuyết\ chương\ trình\ dịch/bài\ tập/De\ 1/Semantics_Analyzer\ 4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/ubuntu/Màn\ hình\ nền/Study/OnTapCuoiKy/Chương\ trình\ dịch/Lý\ thuyết\ chương\ trình\ dịch/bài\ tập/De\ 1/Semantics_Analyzer\ 4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/ubuntu/Màn\ hình\ nền/Study/OnTapCuoiKy/Chương\ trình\ dịch/Lý\ thuyết\ chương\ trình\ dịch/bài\ tập/ctdKPL/De\ cuoi\ ki/De\ 1/De1/cmake-build-debug/Makefile&quot;  VERBOSE=1 untitled5"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/ubuntu/Màn\ hình\ nền/Study/OnTapCuoiKy/Chương\ trình\ dịch/Lý\ thuyết\ chương\ trình\ dịch/bài\ tập/ctdKPL/De\ cuoi\ ki/De\ 1/De1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/ubuntu/Màn\ hình\ nền/Study/OnTapCuoiKy/Chương\ trình\ dịch/Lý\ thuyết\ chương\ trình\ dịch/bài\ tập/ctdKPL/De\ cuoi\ ki/De\ 1/De1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/ubuntu/Màn\ hình\ nền/Study/OnTapCuoiKy/Chương\ trình\ dịch/Lý\ thuyết\ chương\ trình\ dịch/bài\ tập/ctdKPL/De\ cuoi\ ki/De\ 1/De1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="untitled5/fast">
-				<Option output="/home/ubuntu/Màn hình nền/Study/OnTapCuoiKy/Chương trình dịch/Lý thuyết chương trình dịch/bài tập/De 1/Semantics_Analyzer 4/cmake-build-debug/untitled5" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/ubuntu/Màn hình nền/Study/OnTapCuoiKy/Chương trình dịch/Lý thuyết chương trình dịch/bài tập/De 1/Semantics_Analyzer 4/cmake-build-debug"/>
+				<Option output="/home/ubuntu/Màn hình nền/Study/OnTapCuoiKy/Chương trình dịch/Lý thuyết chương trình dịch/bài tập/ctdKPL/De cuoi ki/De 1/De1/cmake-build-debug/untitled5" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ubuntu/Màn hình nền/Study/OnTapCuoiKy/Chương trình dịch/Lý thuyết chương trình dịch/bài tập/ctdKPL/De cuoi ki/De 1/De1/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -69,71 +69,71 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/ubuntu/Màn\ hình\ nền/Study/OnTapCuoiKy/Chương\ trình\ dịch/Lý\ thuyết\ chương\ trình\ dịch/bài\ tập/De\ 1/Semantics_Analyzer\ 4/cmake-build-debug/Makefile&quot;  VERBOSE=1 untitled5/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/ubuntu/Màn\ hình\ nền/Study/OnTapCuoiKy/Chương\ trình\ dịch/Lý\ thuyết\ chương\ trình\ dịch/bài\ tập/De\ 1/Semantics_Analyzer\ 4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/ubuntu/Màn\ hình\ nền/Study/OnTapCuoiKy/Chương\ trình\ dịch/Lý\ thuyết\ chương\ trình\ dịch/bài\ tập/De\ 1/Semantics_Analyzer\ 4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/ubuntu/Màn\ hình\ nền/Study/OnTapCuoiKy/Chương\ trình\ dịch/Lý\ thuyết\ chương\ trình\ dịch/bài\ tập/De\ 1/Semantics_Analyzer\ 4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/ubuntu/Màn\ hình\ nền/Study/OnTapCuoiKy/Chương\ trình\ dịch/Lý\ thuyết\ chương\ trình\ dịch/bài\ tập/ctdKPL/De\ cuoi\ ki/De\ 1/De1/cmake-build-debug/Makefile&quot;  VERBOSE=1 untitled5/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/ubuntu/Màn\ hình\ nền/Study/OnTapCuoiKy/Chương\ trình\ dịch/Lý\ thuyết\ chương\ trình\ dịch/bài\ tập/ctdKPL/De\ cuoi\ ki/De\ 1/De1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/ubuntu/Màn\ hình\ nền/Study/OnTapCuoiKy/Chương\ trình\ dịch/Lý\ thuyết\ chương\ trình\ dịch/bài\ tập/ctdKPL/De\ cuoi\ ki/De\ 1/De1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/ubuntu/Màn\ hình\ nền/Study/OnTapCuoiKy/Chương\ trình\ dịch/Lý\ thuyết\ chương\ trình\ dịch/bài\ tập/ctdKPL/De\ cuoi\ ki/De\ 1/De1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/ubuntu/Màn hình nền/Study/OnTapCuoiKy/Chương trình dịch/Lý thuyết chương trình dịch/bài tập/De 1/Semantics_Analyzer 4/incompleted/charcode.c">
+		<Unit filename="/home/ubuntu/Màn hình nền/Study/OnTapCuoiKy/Chương trình dịch/Lý thuyết chương trình dịch/bài tập/ctdKPL/De cuoi ki/De 1/De1/incompleted/charcode.c">
 			<Option target="untitled5"/>
 		</Unit>
-		<Unit filename="/home/ubuntu/Màn hình nền/Study/OnTapCuoiKy/Chương trình dịch/Lý thuyết chương trình dịch/bài tập/De 1/Semantics_Analyzer 4/incompleted/charcode.h">
+		<Unit filename="/home/ubuntu/Màn hình nền/Study/OnTapCuoiKy/Chương trình dịch/Lý thuyết chương trình dịch/bài tập/ctdKPL/De cuoi ki/De 1/De1/incompleted/charcode.h">
 			<Option target="untitled5"/>
 		</Unit>
-		<Unit filename="/home/ubuntu/Màn hình nền/Study/OnTapCuoiKy/Chương trình dịch/Lý thuyết chương trình dịch/bài tập/De 1/Semantics_Analyzer 4/incompleted/debug.c">
+		<Unit filename="/home/ubuntu/Màn hình nền/Study/OnTapCuoiKy/Chương trình dịch/Lý thuyết chương trình dịch/bài tập/ctdKPL/De cuoi ki/De 1/De1/incompleted/debug.c">
 			<Option target="untitled5"/>
 		</Unit>
-		<Unit filename="/home/ubuntu/Màn hình nền/Study/OnTapCuoiKy/Chương trình dịch/Lý thuyết chương trình dịch/bài tập/De 1/Semantics_Analyzer 4/incompleted/debug.h">
+		<Unit filename="/home/ubuntu/Màn hình nền/Study/OnTapCuoiKy/Chương trình dịch/Lý thuyết chương trình dịch/bài tập/ctdKPL/De cuoi ki/De 1/De1/incompleted/debug.h">
 			<Option target="untitled5"/>
 		</Unit>
-		<Unit filename="/home/ubuntu/Màn hình nền/Study/OnTapCuoiKy/Chương trình dịch/Lý thuyết chương trình dịch/bài tập/De 1/Semantics_Analyzer 4/incompleted/error.c">
+		<Unit filename="/home/ubuntu/Màn hình nền/Study/OnTapCuoiKy/Chương trình dịch/Lý thuyết chương trình dịch/bài tập/ctdKPL/De cuoi ki/De 1/De1/incompleted/error.c">
 			<Option target="untitled5"/>
 		</Unit>
-		<Unit filename="/home/ubuntu/Màn hình nền/Study/OnTapCuoiKy/Chương trình dịch/Lý thuyết chương trình dịch/bài tập/De 1/Semantics_Analyzer 4/incompleted/error.h">
+		<Unit filename="/home/ubuntu/Màn hình nền/Study/OnTapCuoiKy/Chương trình dịch/Lý thuyết chương trình dịch/bài tập/ctdKPL/De cuoi ki/De 1/De1/incompleted/error.h">
 			<Option target="untitled5"/>
 		</Unit>
-		<Unit filename="/home/ubuntu/Màn hình nền/Study/OnTapCuoiKy/Chương trình dịch/Lý thuyết chương trình dịch/bài tập/De 1/Semantics_Analyzer 4/incompleted/main.c">
+		<Unit filename="/home/ubuntu/Màn hình nền/Study/OnTapCuoiKy/Chương trình dịch/Lý thuyết chương trình dịch/bài tập/ctdKPL/De cuoi ki/De 1/De1/incompleted/main.c">
 			<Option target="untitled5"/>
 		</Unit>
-		<Unit filename="/home/ubuntu/Màn hình nền/Study/OnTapCuoiKy/Chương trình dịch/Lý thuyết chương trình dịch/bài tập/De 1/Semantics_Analyzer 4/incompleted/parser.c">
+		<Unit filename="/home/ubuntu/Màn hình nền/Study/OnTapCuoiKy/Chương trình dịch/Lý thuyết chương trình dịch/bài tập/ctdKPL/De cuoi ki/De 1/De1/incompleted/parser.c">
 			<Option target="untitled5"/>
 		</Unit>
-		<Unit filename="/home/ubuntu/Màn hình nền/Study/OnTapCuoiKy/Chương trình dịch/Lý thuyết chương trình dịch/bài tập/De 1/Semantics_Analyzer 4/incompleted/parser.h">
+		<Unit filename="/home/ubuntu/Màn hình nền/Study/OnTapCuoiKy/Chương trình dịch/Lý thuyết chương trình dịch/bài tập/ctdKPL/De cuoi ki/De 1/De1/incompleted/parser.h">
 			<Option target="untitled5"/>
 		</Unit>
-		<Unit filename="/home/ubuntu/Màn hình nền/Study/OnTapCuoiKy/Chương trình dịch/Lý thuyết chương trình dịch/bài tập/De 1/Semantics_Analyzer 4/incompleted/reader.c">
+		<Unit filename="/home/ubuntu/Màn hình nền/Study/OnTapCuoiKy/Chương trình dịch/Lý thuyết chương trình dịch/bài tập/ctdKPL/De cuoi ki/De 1/De1/incompleted/reader.c">
 			<Option target="untitled5"/>
 		</Unit>
-		<Unit filename="/home/ubuntu/Màn hình nền/Study/OnTapCuoiKy/Chương trình dịch/Lý thuyết chương trình dịch/bài tập/De 1/Semantics_Analyzer 4/incompleted/reader.h">
+		<Unit filename="/home/ubuntu/Màn hình nền/Study/OnTapCuoiKy/Chương trình dịch/Lý thuyết chương trình dịch/bài tập/ctdKPL/De cuoi ki/De 1/De1/incompleted/reader.h">
 			<Option target="untitled5"/>
 		</Unit>
-		<Unit filename="/home/ubuntu/Màn hình nền/Study/OnTapCuoiKy/Chương trình dịch/Lý thuyết chương trình dịch/bài tập/De 1/Semantics_Analyzer 4/incompleted/scanner.c">
+		<Unit filename="/home/ubuntu/Màn hình nền/Study/OnTapCuoiKy/Chương trình dịch/Lý thuyết chương trình dịch/bài tập/ctdKPL/De cuoi ki/De 1/De1/incompleted/scanner.c">
 			<Option target="untitled5"/>
 		</Unit>
-		<Unit filename="/home/ubuntu/Màn hình nền/Study/OnTapCuoiKy/Chương trình dịch/Lý thuyết chương trình dịch/bài tập/De 1/Semantics_Analyzer 4/incompleted/scanner.h">
+		<Unit filename="/home/ubuntu/Màn hình nền/Study/OnTapCuoiKy/Chương trình dịch/Lý thuyết chương trình dịch/bài tập/ctdKPL/De cuoi ki/De 1/De1/incompleted/scanner.h">
 			<Option target="untitled5"/>
 		</Unit>
-		<Unit filename="/home/ubuntu/Màn hình nền/Study/OnTapCuoiKy/Chương trình dịch/Lý thuyết chương trình dịch/bài tập/De 1/Semantics_Analyzer 4/incompleted/semantics.c">
+		<Unit filename="/home/ubuntu/Màn hình nền/Study/OnTapCuoiKy/Chương trình dịch/Lý thuyết chương trình dịch/bài tập/ctdKPL/De cuoi ki/De 1/De1/incompleted/semantics.c">
 			<Option target="untitled5"/>
 		</Unit>
-		<Unit filename="/home/ubuntu/Màn hình nền/Study/OnTapCuoiKy/Chương trình dịch/Lý thuyết chương trình dịch/bài tập/De 1/Semantics_Analyzer 4/incompleted/semantics.h">
+		<Unit filename="/home/ubuntu/Màn hình nền/Study/OnTapCuoiKy/Chương trình dịch/Lý thuyết chương trình dịch/bài tập/ctdKPL/De cuoi ki/De 1/De1/incompleted/semantics.h">
 			<Option target="untitled5"/>
 		</Unit>
-		<Unit filename="/home/ubuntu/Màn hình nền/Study/OnTapCuoiKy/Chương trình dịch/Lý thuyết chương trình dịch/bài tập/De 1/Semantics_Analyzer 4/incompleted/symtab.c">
+		<Unit filename="/home/ubuntu/Màn hình nền/Study/OnTapCuoiKy/Chương trình dịch/Lý thuyết chương trình dịch/bài tập/ctdKPL/De cuoi ki/De 1/De1/incompleted/symtab.c">
 			<Option target="untitled5"/>
 		</Unit>
-		<Unit filename="/home/ubuntu/Màn hình nền/Study/OnTapCuoiKy/Chương trình dịch/Lý thuyết chương trình dịch/bài tập/De 1/Semantics_Analyzer 4/incompleted/symtab.h">
+		<Unit filename="/home/ubuntu/Màn hình nền/Study/OnTapCuoiKy/Chương trình dịch/Lý thuyết chương trình dịch/bài tập/ctdKPL/De cuoi ki/De 1/De1/incompleted/symtab.h">
 			<Option target="untitled5"/>
 		</Unit>
-		<Unit filename="/home/ubuntu/Màn hình nền/Study/OnTapCuoiKy/Chương trình dịch/Lý thuyết chương trình dịch/bài tập/De 1/Semantics_Analyzer 4/incompleted/token.c">
+		<Unit filename="/home/ubuntu/Màn hình nền/Study/OnTapCuoiKy/Chương trình dịch/Lý thuyết chương trình dịch/bài tập/ctdKPL/De cuoi ki/De 1/De1/incompleted/token.c">
 			<Option target="untitled5"/>
 		</Unit>
-		<Unit filename="/home/ubuntu/Màn hình nền/Study/OnTapCuoiKy/Chương trình dịch/Lý thuyết chương trình dịch/bài tập/De 1/Semantics_Analyzer 4/incompleted/token.h">
+		<Unit filename="/home/ubuntu/Màn hình nền/Study/OnTapCuoiKy/Chương trình dịch/Lý thuyết chương trình dịch/bài tập/ctdKPL/De cuoi ki/De 1/De1/incompleted/token.h">
 			<Option target="untitled5"/>
 		</Unit>
-		<Unit filename="/home/ubuntu/Màn hình nền/Study/OnTapCuoiKy/Chương trình dịch/Lý thuyết chương trình dịch/bài tập/De 1/Semantics_Analyzer 4/CMakeLists.txt">
+		<Unit filename="/home/ubuntu/Màn hình nền/Study/OnTapCuoiKy/Chương trình dịch/Lý thuyết chương trình dịch/bài tập/ctdKPL/De cuoi ki/De 1/De1/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
